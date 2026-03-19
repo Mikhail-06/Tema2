@@ -8,3 +8,14 @@ document.getElementById("btn-action").addEventListener("click", function()
     console.log("Evento de click al boton");
 
 });
+
+
+document.getElementById("btn-cancelar").addEventListener("click", function()
+{
+   alert("¡Acción cancelada!");
+});
+
+document.getElementById("btn-produccion").addEventListener("click", function()
+{
+    alert("Acción en producción!");
+});
